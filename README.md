@@ -9,10 +9,17 @@ How to use:
 
 Controls:
 WASD = **Move crosshair**
+
 E = **Move crosshair to current mouse position**
+
 Z = **Reset angle, power, wind, and crosshair position**
+
 L = **Adjust angle right**
+
 J = **Adjust angle left**
+
 I = **Increase power**
+
 K = **Decrease power**
+
 Q or ESC = **Quit program**
