@@ -5,12 +5,7 @@ import ctypes
 import pyautogui
 from pygame.locals import *
 
-print("1. 1280x720")
-print("2. 1366x768")
-print("3. 1600x900")
-print("4. 1680x1050")
-print("5. 1920x1080")
-print("6. 2560x1440")
+print("1. 1280x720\n2. 1366x768\n3. 1600x900\n4. 1680x1050\n5. 1920x1080\n6. 2560x1440")
 choice = input("Choose your game resolution : ")
 
 res_vars = {
@@ -34,7 +29,7 @@ res_map = {
 resolution = res_map.get(choice, "1366x768")  # default to 1366x768
 vars = res_vars[resolution]
 
-wt, ht = 1920, 1080
+wt, ht = 1920, 1080 # CHANGE THIS TO YOUR SCREENS RESOLUTION
 
 pygame.init()
 screen = pygame.display.set_mode((wt, ht), pygame.NOFRAME)
