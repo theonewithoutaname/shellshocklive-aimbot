@@ -102,7 +102,7 @@ while running:
             elif event.key == K_l: # adjust angle right
                 angle -= 1
                 degree = angle
-            elif event.key == K_j: # adjust angle left (TODO: fix angle values)
+            elif event.key == K_j: # adjust angle left
                 angle += 1
                 degree = angle
             elif event.key == K_i: # increase power
